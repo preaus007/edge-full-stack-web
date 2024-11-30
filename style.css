@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    width: 521px;
+}
+li{
+    list-style: none;
+}
+.container {
+    width: 100%;
+    display: flex;
+}
+.left {
+    padding: 0 15px;
+    background-color: #163853;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    color: white;
+}
+.person{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 0 auto;
+}
+.person > .profile {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.phone, .email, .address, .website {
+    display: flex;
+    margin: 5px 0;
+}
+i {
+    margin-right: 5px;
+}
+.education > .course {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.master,.bachelor {
+    margin: 5px 0;
+}
+.contact,.education,.skills,.languages{
+    width: 100%;
+}
+hr{
+    width: 100%;
+}
